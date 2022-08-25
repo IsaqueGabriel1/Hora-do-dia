@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#lblhora{
+    font-size: 15pt;
+    margin-bottom: 2vh;
+}
+
+#container{
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 60vh;
+}
+
+#boxHora{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    width: 40vw;
+    height: 50vh;
+    border-radius: 20px;
+}
+
+#imgHora img{
+    width: 15vw;
+    height: 30vh;
+    border-radius: 15vw;
+}
+
+@media screen and (max-width: 1440px) {
+    #boxHora img{
+      height: 25vh;
+    }
+  }
+
+  @media screen and (max-width: 1024px) {
+    #boxHora img{
+      height: 18vh;
+    }
+    #boxHora{
+        width: 30vw;
+        height: 40vh;
+    }
+  } 
+  @media screen and (max-width: 768px) {
+    #boxHora img{
+      width: 16vw;
+      height: 15vh;
+    }
+    #boxHora{
+        width: 30vw;
+        height: 35vh;
+    }
+    #lblTitulo{
+        font-size: 10pt;
+    }
+    #lblhora{
+        font-size: 13pt;
+    }
+  } 
+  @media screen and (max-width: 425px) {
+    #boxHora img{
+      width: 20vw;
+      height: 10vh;
+    }
+    #boxHora{
+        width: 50vw;
+        height: 25vh;
+    }
+    #lblTitulo{
+        font-size: 9pt;
+    }
+    #lblhora{
+        font-size: 10pt;
+    }
+  }
+  @media screen and (max-width: 320px) {
+    #boxHora img{
+      width: 25vw;
+      height: 10vh;
+    }
+    #boxHora{
+        width: 50vw;
+        height: 25vh;
+    }
+    #lblTitulo{
+        font-size: 9pt;
+    }
+    #lblhora{
+        font-size: 10pt;
+    }
+  } 
